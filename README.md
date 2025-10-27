@@ -1,7 +1,5 @@
 # ADK with Multimodal Tool Interaction
 
-> **⚠️ DISCLAIMER: THIS IS NOT AN OFFICIALLY SUPPORTED GOOGLE PRODUCT. THIS PROJECT IS INTENDED FOR DEMONSTRATION PURPOSES ONLY. IT IS NOT INTENDED FOR USE IN A PRODUCTION ENVIRONMENT.**
-
 This demo showcases how to implement **multimodal tool interaction flow in ADK** using a creative product marketing agent use case. In this use case, the agent can refer to the user-uploaded images and perform the required edits by referencing the artifact identifier which is given as context in the model callback. Furthermore, the tool can produce multimodal data (images and videos) and save it as artifact to be used in the conversation context.
 
 **Key Capabilities:**
@@ -39,15 +37,11 @@ This demo showcases how to implement **multimodal tool interaction flow in ADK**
 
 ## How to Run
 
-1. Rename `example_full_agent` dir to `product_photo_editor`
+1. Copy the `product_photo_editor/.env.example` file to `product_photo_editor/.env` and fill in the values
 
-2. Copy the `product_photo_editor/.env.example` file to `product_photo_editor/.env` and fill in the values
+2. Copy the `veo_mcp/.env.example` file to `veo_mcp/.env` and fill in the values
 
-3. Rename `example_mcp_server` dir to `veo_mcp`
-
-4. Copy the `veo_mcp/.env.example` file to `veo_mcp/.env` and fill in the values
-
-5. Run the agent using the following command:
+3. Run the agent using the following command:
 
     ```shell
     uv run adk web
