@@ -37,9 +37,9 @@ This demo showcases how to implement **multimodal tool interaction flow in ADK**
 
 ## How to Run
 
-1. Copy the `product_photo_editor/.env.example` file to `product_photo_editor/.env` and fill in the values
+1. Copy the `example_full_agent/.env.example` file to `product_photo_editor/.env` and fill in the values
 
-2. Copy the `veo_mcp/.env.example` file to `veo_mcp/.env` and fill in the values
+2. Copy the `example_macp_server/.env.example` file to `veo_mcp/.env` and fill in the values
 
 3. Run the agent using the following command:
 
